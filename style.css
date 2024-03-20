@@ -26,11 +26,37 @@ body{
     box-sizing: border-box;
     
 }
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__navegacao{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__links{
+    text-decoration: none;
+    color: var(--cor-princpal);
+    font-family: var(--fonte-segundaria);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
 .conteudo{
     display: flex;
-    margin: 10% 15%;
+    padding: 5% 15%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.sobre__principal{
+    display: flex;
+    padding: 5% 15%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .conteudo__secao{
@@ -38,7 +64,13 @@ body{
     flex-direction: column;
     gap: 40px;
     width: 600px;
-    margin-right: 5%;
+}
+
+.sobre__secao{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 600px;
 }
 
 .conteudo__titulo  {
@@ -46,8 +78,13 @@ body{
     color: var(--cor-secundaria);
     font-weight: 400;
     font-size: 36px;
-    
+}
 
+.sobre__titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 36px;
 }
 
 .conteudo__destaque{
@@ -58,23 +95,61 @@ body{
     font-family: var(--fonte-segundaria);
     font-size: 24px;
     text-align: justify;
+}
 
+.sobre__paragrafo{
+    font-family: var(--fonte-segundaria);
+    font-size: 24px;
+    text-align: justify;
 }
 
 .conteudo__secao__links{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}  
+
+.conteudo__secao__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
+
 .conteudo__link{
+    display: flex;
     font-family: var(--fonte-segundaria);
     font-size: 24px;
     font-weight: 600;
-    color: var(--cor-terciaria);
-    background-color: var(--cor-princpal);
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-princpal);
     text-decoration: none;
     padding: 24.5px 0;
-    width: 280px ;
+    width: 380px ;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     border-radius: 16px;
+    gap: 16px;
+}
+
+.conteudo__secao__links :hover{
+    background-color: var(--cor-hover);
+}
+
+.rodape{
+    padding: 24px;
+    background-color: var(--cor-princpal);
+    
+
+}
+
+.rodape__paragrafo{
+    text-align: center;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-segundaria);
+    font-size: 24px;
+    font-weight: 400;
 }
