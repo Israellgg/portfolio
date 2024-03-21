@@ -40,7 +40,7 @@ body{
     text-decoration: none;
     color: var(--cor-princpal);
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
@@ -63,7 +63,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 600px;
+    width: 50%;
 }
 
 .sobre__secao{
@@ -77,14 +77,14 @@ body{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .sobre__titulo{
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .conteudo__destaque{
@@ -93,13 +93,13 @@ body{
 
 .conteudo__paragrafo{
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
 .sobre__paragrafo{
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: justify;
 }
 
@@ -113,7 +113,7 @@ body{
 .conteudo__secao__titulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
@@ -121,13 +121,13 @@ body{
 .conteudo__link{
     display: flex;
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-secundaria);
     border: 2px solid var(--cor-princpal);
     text-decoration: none;
     padding: 24.5px 0;
-    width: 380px ;
+    width: 50%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -137,6 +137,10 @@ body{
 
 .conteudo__secao__links :hover{
     background-color: var(--cor-hover);
+}
+
+.conteudo__imagem{
+    width: 50%;
 }
 
 .rodape{
@@ -150,6 +154,7 @@ body{
     text-align: center;
     color: var(--cor-terciaria);
     font-family: var(--fonte-segundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
+
