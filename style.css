@@ -158,3 +158,27 @@ body{
     font-weight: 400;
 }
 
+@media (max-width: 1200px){
+   
+    .cabecalho{
+        padding: 5% ;
+    }
+
+    .cabecalho__navegacao{
+        justify-content: center;
+    }
+
+    .conteudo{
+        flex-direction: column-reverse;   
+        padding: 5%;
+    }
+
+    .conteudo__secao{
+        padding: 5%;
+        width: auto;
+    }
+
+    .conteudo__imagem{
+        width: 60%;
+    }
+}
