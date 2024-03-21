@@ -140,7 +140,7 @@ body{
 }
 
 .conteudo__imagem{
-    width: 50%;
+    width: 40%;
 }
 
 .rodape{
@@ -180,5 +180,17 @@ body{
 
     .conteudo__imagem{
         width: 60%;
+    }
+
+    .conteudo__secao__titulo{
+        text-align: center;
+    }
+
+    .conteudo__link{
+        width: 80%;
+    }
+
+    .rodape{
+        padding: 5px;
     }
 }
