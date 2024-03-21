@@ -78,6 +78,7 @@ body{
     color: var(--cor-secundaria);
     font-weight: 400;
     font-size: 2.25rem;
+    
 }
 
 .sobre__titulo{
@@ -173,16 +174,30 @@ body{
         padding: 5%;
     }
 
+    .sobre__principal{
+        flex-direction: column-reverse;   
+        padding: 5%;
+    }
+
     .conteudo__secao{
         padding: 5%;
         width: auto;
     }
 
+    .sobre__secao{
+        padding: 5%;
+        width: auto;
+    }
+
     .conteudo__imagem{
-        width: 60%;
+        width: 50%;
     }
 
     .conteudo__secao__titulo{
+        text-align: center;
+    }
+
+    .sobre__titulo{
         text-align: center;
     }
 
@@ -190,7 +205,13 @@ body{
         width: 80%;
     }
 
-    .rodape{
-        padding: 5px;
+   
+
+    .conteudo__titulo{
+        text-align: center;
+    }
+    
+    .rodape__paragrafo{
+        font-size: 1.2rem;
     }
 }
