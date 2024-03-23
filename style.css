@@ -60,6 +60,7 @@ body{
     padding: 5% 15%;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .sobre__principal{
@@ -67,6 +68,7 @@ body{
     padding: 5% 15%;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .conteudo__secao{
@@ -128,6 +130,10 @@ body{
 
 }
 
+#icon__insta{
+    width: 32px;
+    height: 32px;
+}
 
 .conteudo__link{
     display: flex;
@@ -152,7 +158,16 @@ body{
 
 .conteudo__imagem{
     width: 40%;
+    border-radius: 15px;
 }
+
+.conteudo__video{
+    width: 50%;
+    border-radius: 15px;
+    
+}
+
+
 
 .rodape{
     padding: 24px;
@@ -177,6 +192,7 @@ body{
 
     .cabecalho__navegacao{
         justify-content: center;
+        
     }
 
     .conteudo{
@@ -203,6 +219,13 @@ body{
         width: 50%;
     }
 
+    .conteudo__video{
+        width: 70%;
+        margin-top: 0;
+        
+    }
+
+
     .conteudo__secao__titulo{
         text-align: center;
     }
@@ -223,5 +246,25 @@ body{
     
     .rodape__paragrafo{
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 425px){
+    .cabecalho__navegacao{
+        text-align: center;
+        gap: 30px;
+    }
+
+    .conteudo__imagem{
+        width: 70%;
+    }
+
+    .conteudo__video{
+        width: 90%;
+    }
+
+    .sobre__paragrafo{
+        font-size: 1rem;
+       
     }
 }
