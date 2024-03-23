@@ -6,13 +6,23 @@ font-family: "Krona One", sans-serif;
 */
 
 :root {
+    --cor-princpal: #FF204E;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #00224D;
+    --cor-hover: #5D0E41;
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-segundaria: "Montserrat", sans-serif;
+}
+
+/* :root {
     --cor-princpal:#22D4FD;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #000000;
     --cor-hover: #272727;
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-segundaria: "Montserrat", sans-serif;
-}
+} */
+
 
 
 *{
